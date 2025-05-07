@@ -1,0 +1,16 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: b2cba7e1-bee3-4ad8-965e-026119dd2e53
+  title: Hybrid Quantum PINNs
+  description: Learning Hybrid Quantum PINNs for solving PDEs
+  keywords: [PINNs, Quantum, PDEs, Physics-Informed Neural Networks, Quantum Neural Networks,
+    Quantum Computing, Quantum Machine Learning, PDEs, Partial Differential Equations]
+  authors: [Rajesh Karra]
+  github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  logo: HQPINNs.jpg
