@@ -20,6 +20,7 @@ project:
 
   toc:
     - file: intro.md
+    - file: mathematics-for-machine-learning-and-data-science.ipynb
 
   exports:
     - format: pdf
