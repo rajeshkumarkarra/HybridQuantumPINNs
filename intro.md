@@ -1,29 +1,83 @@
-# Introduction
-## Road map to Hybrid Quantum PINNs
+# 🧠 Roadmap to Hybrid Quantum PINNs (QPINNs)
 
-# Introduction
+> **Goal**: Learn to build Hybrid Physics-Informed Neural Networks using Quantum Circuits.
 
-I am a book about ... something! Wikipedia has [information about books](wiki:book): hover over the link for more information.
+---
 
-% An admonition containing a note
-:::{note}
-Books are usually written on paper ... But Jupyter Book can create _websites_!
-:::
+## 🚩 Phase 0: Prerequisites
 
-If you sold 100 books at \$10 per book, you'd have \$1000 dollars according to [](#eq:book). If instead you publish your Jupyter Book to the web for free, you'd have \$0 dollars!
+- ✅ Python Programming  
+- ✅ NumPy & Matplotlib  
+- ✅ PyTorch (Autograd, Modules, Optimizers)  
+- ✅ Differential Equations (ODEs/PDEs basics)
 
-% An arbitrary math equation
-:::{math}
-:name: eq:book
+---
 
-x \times y = z
-:::
+## 🧱 Phase 1: Foundations
 
-Sometimes when reading it is helpful to foster a _tranquil_ environment. The image in [](#fig:mountains) would be a perfect spot!
+### 1. Python OOP and Autograd
+- Define custom classes (`nn.Module`)
+- Use `torch.autograd` for gradients
 
-% A figure of a photograph of some mountains, followed by a caption
-:::{figure} https://github.com/rowanc1/pics/blob/main/mountains.png?raw=true
-:label: fig:mountains
+### 2. Classical PINNs
+- Solve PDEs with neural networks
+- Enforce physics via loss functions  
+  e.g., `MSE_residual + MSE_boundary + MSE_initial`
 
-A photograph of some beautiful mountains to look at whilst reading.
-:::
+---
+
+## ⚛️ Phase 2: Quantum Computing Basics
+
+### 3. Qubits and Quantum Gates
+- PennyLane or Qiskit
+- Gates: `RX`, `RY`, `CNOT`, `H`, etc.
+- Measurement and expectations
+
+### 4. Variational Quantum Circuits
+- Define parameterized gates
+- Cost function as output expectation
+- Use optimizers (`GradientDescentOptimizer`, `Adam`)
+
+---
+
+## 🧠⚛️ Phase 3: Hybrid Modeling
+
+### 5. Hybrid Classical-Quantum Models
+- Use `@qml.qnode` decorator
+- Quantum nodes as layers inside PyTorch
+- Backpropagation through quantum circuits
+
+---
+
+## 🌡️ Phase 4: Hybrid QPINNs
+
+### 6. Combine PINN + QNN
+- Replace sub-networks in PINN with QNN
+- Physics loss = PDE residual  
+  `Loss = MSE_IC + MSE_BC + MSE_PDE`
+
+### 7. Full Workflow
+- Data sampling (collocation points)
+- Forward pass: `x, t → hybrid network → u_pred`
+- Autograd: compute residuals (e.g., `u_t - u_xx`)
+- Training: update both classical & quantum weights
+
+---
+
+## 📦 Tools & Libraries
+
+- **PyTorch** – Autograd and training loop  
+- **PennyLane** – Quantum circuits and integration  
+- **Matplotlib / Seaborn** – Visualization  
+- **DeepXDE / SciANN** – Optional for PINN base models
+
+---
+
+## 📚 Suggested Learning Resources
+
+| Area | Resources |
+|------|-----------|
+| Python & PyTorch | [PyTorch Official Docs](https://pytorch.org/tutorials/) |
+| Quantum Computing | [PennyLane Tutorials](https://pennylane.ai/qml/demonstrations.html) |
+| PINNs | [DeepXDE Examples](https://deepxde.readthedocs.io/en/latest/examples/index.html) |
+| QPINNs Research | "Quantum Physics-Informed Neural Networks" by Cuesta et al. |
