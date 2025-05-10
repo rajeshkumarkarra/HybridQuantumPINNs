@@ -1,0 +1,33 @@
+format: jb-book
+root: intro
+chapters:
+  - intro
+  - theory
+  - examples
+  - references
+  - acknowledgements
+  - index
+  - glossary
+  - license
+  - toc:
+      name: Table of Contents
+      sections:
+        - title: Table of Contents
+          sections:
+            - title: Introduction
+              file: intro
+            - title: Theory
+              file: theory
+            - title: Examples
+              file: examples
+            - title: References
+              file: references
+            - title: Acknowledgements
+              file: acknowledgements
+            - title: Index
+              file: index
+            - title: Glossary
+              file: glossary
+            - title: License
+              file: license
+            - title: Table of Contents

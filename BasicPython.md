@@ -1,4 +1,4 @@
-# Introduction
+# Basic Python
 ## Road map to Hybrid Quantum PINNs
 
 # Introduction

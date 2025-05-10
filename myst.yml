@@ -10,8 +10,15 @@ project:
   logo: HQPINNs.jpg
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+# Add a bibtex file to the project root to enable citations
+bibtex_bibfiles:
+  - references.bib
 site:
   template: book-theme
   # options:
   #   favicon: favicon.ico
   logo: HQPINNs.jpg
+  - name: Check Node and NPM version
+    run: |
+      node -v
+      npm -v
