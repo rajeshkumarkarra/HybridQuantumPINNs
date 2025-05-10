@@ -4,6 +4,10 @@
 
 ---
 
+![Roadmap_to_HQPINN](Roadmap_to_HQPINNs.png "Hybrid Quantum PINNs")
+
+
+
 ## 🚩 Phase 0: Prerequisites
 
 - ✅ Python Programming  
