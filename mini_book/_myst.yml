@@ -18,8 +18,26 @@ project:
   logo: HQPINNs.jpg
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
 
-  toc:
-    - file: intro.md
+  execute:
+    execute_notebooks: cache
+
+  # HTML-specific settings
+  html:
+    home_page_in_navbar: false
+
+  # Interact link settings
+  notebook_interface: "notebook"
+
+  # Launch button settings
+  repository:
+    url: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
+    path_to_book: "mini_book"
+
+
+  #toc:
+    #- file: intro.md
+    #- file: mathematics-for-machine-learning-and-data-science.ipynb
+    #- file: Python_Concepts_for_QPINNs.md
 
   exports:
     - format: pdf
