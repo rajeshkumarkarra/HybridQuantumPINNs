@@ -19,15 +19,15 @@ project:
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
 
   toc:
-    -file: intro.md
+    - file: intro.md
 
-24|   exports:
-25|     - format: pdf
-26|       template: lapreprint-typst
-27|       articles: intro.md
+  exports:
+    - format: pdf
+      template: lapreprint-typst
+      articles: intro.md
 
   references:
-    -guide: https://mystmd.org/guide
+    - guide: https://mystmd.org/guide
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 # Add a bibtex file to the project root to enable citations
 
@@ -36,4 +36,3 @@ site:
   # options:
   #   favicon: favicon.ico
   logo: HQPINNs.jpg
- 
