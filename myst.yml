@@ -18,20 +18,9 @@ project:
   logo: HQPINNs.jpg
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
 
-  execute:
-    execute_notebooks: cache
+ 
 
-  # HTML-specific settings
-  html:
-    home_page_in_navbar: false
 
-  # Interact link settings
-  notebook_interface: "notebook"
-
-  # Launch button settings
-  repository:
-    url: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
-    path_to_book: "mini_book"
 
 
   #toc:
