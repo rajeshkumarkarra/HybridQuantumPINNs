@@ -18,10 +18,10 @@ project:
   logo: HQPINNs.jpg
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
 
-  toc:
-    - file: intro.md
-    - file: mathematics-for-machine-learning-and-data-science.ipynb
-    - file: Python_Concepts_for_QPINNs.md
+  #toc:
+    #- file: intro.md
+    #- file: mathematics-for-machine-learning-and-data-science.ipynb
+    #- file: Python_Concepts_for_QPINNs.md
 
   exports:
     - format: pdf

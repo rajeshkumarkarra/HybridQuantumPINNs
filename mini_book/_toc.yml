@@ -1,0 +1,6 @@
+format: jb-article
+root: docs/intro
+sections:
+  - file: docs/intro.md
+  - file: docs/Python_Concepts_for_QPINNs.md
+  - file: docs/Python_Concepts_for_QPINNs.md
