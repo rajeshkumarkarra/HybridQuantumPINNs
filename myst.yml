@@ -18,7 +18,4 @@ site:
   # options:
   #   favicon: favicon.ico
   logo: HQPINNs.jpg
-  - name: Check Node and NPM version
-    run: |
-      node -v
-      npm -v
+ 
