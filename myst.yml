@@ -21,6 +21,7 @@ project:
   toc:
     - file: intro.md
     - file: mathematics-for-machine-learning-and-data-science.ipynb
+    - file: Python_Concepts_for_QPINNs.md
 
   exports:
     - format: pdf
