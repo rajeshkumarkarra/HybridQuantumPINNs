@@ -7,7 +7,6 @@ project:
   keywords: [PINNs, Quantum, PDEs, Physics-Informed Neural Networks, Quantum Neural Networks,
     Quantum Computing, Quantum Machine Learning, PDEs, Partial Differential Equations]
   authors: [Rajesh Karra]
-  logo: HQPINNs.jpg
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 # Add a bibtex file to the project root to enable citations
