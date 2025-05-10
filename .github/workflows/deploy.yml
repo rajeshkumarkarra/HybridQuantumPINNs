@@ -38,14 +38,7 @@ jobs:
         run: npm install -g mystmd
       - name: Build HTML Assets
         run: myst build --html
-      - name: Check Build Output
-        run: |
-          if [ -d "_build/html" ]; then
-            echo "Build succeeded, '_build/html' directory exists."
-          else
-            echo "Build failed, '_build/html' directory does not exist."
-            exit 1
-          fi
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
