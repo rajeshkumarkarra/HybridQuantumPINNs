@@ -4,11 +4,22 @@ project:
   id: b2cba7e1-bee3-4ad8-965e-026119dd2e53
   title: Hybrid Quantum PINNs
   description: Learning Hybrid Quantum PINNs for solving PDEs
-  keywords: [PINNs, Quantum, PDEs, Physics-Informed Neural Networks, Quantum Neural Networks,
-    Quantum Computing, Quantum Machine Learning, PDEs, Partial Differential Equations]
+  keywords: 
+    - PINNs
+    - Quantum
+    - PDEs
+    - Physics-Informed Neural Networks
+    - Quantum Neural Networks
+    - Quantum Computing
+    - Quantum Machine Learning
+    - PDEs
+    - Partial Differential Equations
   authors: [Rajesh Karra]
   logo: HQPINNs.jpg
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
+
+  toc:
+    -file: intro.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 # Add a bibtex file to the project root to enable citations
 
