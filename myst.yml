@@ -21,10 +21,10 @@ project:
   toc:
     -file: intro.md
 
-  exports:
-    -format: pdf
-     template: lapreprint-typst
-     articles: intro.md
+24|   exports:
+25|     - format: pdf
+26|       template: lapreprint-typst
+27|       articles: intro.md
 
   references:
     -guide: https://mystmd.org/guide
