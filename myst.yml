@@ -15,7 +15,7 @@ project:
     - PDEs
     - Partial Differential Equations
   authors: [Rajesh Karra]
-  logo: HQPINNs.jpg
+  logo: pinnslogo.png
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
 
  
@@ -42,4 +42,4 @@ site:
   template: book-theme
   # options:
   #   favicon: favicon.ico
-  logo: HQPINNs.jpg
+  logo: pinnslogo.png
