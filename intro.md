@@ -1,87 +1,98 @@
-# 🧠 Roadmap to Hybrid Quantum PINNs (QPINNs)
 
-> **Goal**: Learn to build Hybrid Physics-Informed Neural Networks using Quantum Circuits.
+# Roadmap to Hybrid Quantum Physics-Informed Neural Networks (HQPINNs)
 
----
-
-![Roadmap_to_HQPINN](Roadmap_to_HQPINNs.png "Hybrid Quantum PINNs")
-
-
-
-## 🚩 Phase 0: Prerequisites
-
-- ✅ Python Programming  
-- ✅ NumPy & Matplotlib  
-- ✅ PyTorch (Autograd, Modules, Optimizers)  
-- ✅ Differential Equations (ODEs/PDEs basics)
+This roadmap integrates quantum computing, deep learning, and physics-informed modeling, tailored for theoretical physics and computational science researchers.
 
 ---
 
-## 🧱 Phase 1: Foundations
+## 📘 Phase 1: Mathematical & Physical Foundations
 
-### 1. Python OOP and Autograd
-- Define custom classes (`nn.Module`)
-- Use `torch.autograd` for gradients
+### ✅ Topics
+- Linear Algebra: Hermitian operators, eigenvalues/eigenvectors
+- Differential Equations: ODEs, PDEs (Schrödinger, diffusion, etc.)
+- Functional Analysis and Variational Methods
+- Quantum Mechanics: Time-dependent and independent Schrödinger Equation
+- Numerical Methods: Finite difference, spectral methods
 
-### 2. Classical PINNs
-- Solve PDEs with neural networks
-- Enforce physics via loss functions  
-  e.g., `MSE_residual + MSE_boundary + MSE_initial`
-
----
-
-## ⚛️ Phase 2: Quantum Computing Basics
-
-### 3. Qubits and Quantum Gates
-- PennyLane or Qiskit
-- Gates: `RX`, `RY`, `CNOT`, `H`, etc.
-- Measurement and expectations
-
-### 4. Variational Quantum Circuits
-- Define parameterized gates
-- Cost function as output expectation
-- Use optimizers (`GradientDescentOptimizer`, `Adam`)
+### 📚 Resources
+- _Mathematics for Physicists_ – Mary L. Boas
+- _Introduction to Quantum Mechanics_ – David J. Griffiths
+- [MIT OCW: Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/)
+- _Numerical Recipes_ (for PDE solvers)
 
 ---
 
-## 🧠⚛️ Phase 3: Hybrid Modeling
+## 🧠 Phase 2: Deep Learning & PINNs
 
-### 5. Hybrid Classical-Quantum Models
-- Use `@qml.qnode` decorator
-- Quantum nodes as layers inside PyTorch
-- Backpropagation through quantum circuits
+### ✅ Topics
+- Neural Networks (MLPs), activation functions, backpropagation
+- Autograd and symbolic differentiation
+- PINNs architecture: Loss = Data + PDE residual + Boundary/IC
+- Implementation with PyTorch or TensorFlow
 
----
-
-## 🌡️ Phase 4: Hybrid QPINNs
-
-### 6. Combine PINN + QNN
-- Replace sub-networks in PINN with QNN
-- Physics loss = PDE residual  
-  `Loss = MSE_IC + MSE_BC + MSE_PDE`
-
-### 7. Full Workflow
-- Data sampling (collocation points)
-- Forward pass: `x, t → hybrid network → u_pred`
-- Autograd: compute residuals (e.g., `u_t - u_xx`)
-- Training: update both classical & quantum weights
+### 📚 Resources
+- Raissi et al., [“Physics-Informed Neural Networks”](https://arxiv.org/abs/1711.10561)
+- [DeepXDE library](https://github.com/lululxvi/deepxde)
+- YouTube: PINNs tutorials by Karniadakis Group or SciML
+- [Neural PDEs tutorial](https://krasserm.github.io/2020/01/21/neural-pdes/) – Martin Krasser
 
 ---
 
-## 📦 Tools & Libraries
+## ⚛️ Phase 3: Quantum Computing Foundations
 
-- **PyTorch** – Autograd and training loop  
-- **PennyLane** – Quantum circuits and integration  
-- **Matplotlib / Seaborn** – Visualization  
-- **DeepXDE / SciANN** – Optional for PINN base models
+### ✅ Topics
+- Qubits, Bloch sphere, superposition, entanglement
+- Quantum gates and circuits
+- Variational Quantum Algorithms (VQE, QAOA)
+- Parameterized Quantum Circuits (PQCs)
+
+### 📚 Resources
+- _Quantum Computation and Quantum Information_ – Nielsen & Chuang
+- [Qiskit Textbook](https://qiskit.org/learn)
+- [PennyLane Tutorials](https://pennylane.ai/qml/)
+- [MIT OCW: Quantum Computation](https://ocw.mit.edu/courses/6-845-quantum-complexity-theory-fall-2010/)
 
 ---
 
-## 📚 Suggested Learning Resources
+## 🧩 Phase 4: Hybrid Quantum-Classical PINNs
 
-| Area | Resources |
-|------|-----------|
-| Python & PyTorch | [PyTorch Official Docs](https://pytorch.org/tutorials/) |
-| Quantum Computing | [PennyLane Tutorials](https://pennylane.ai/qml/demonstrations.html) |
-| PINNs | [DeepXDE Examples](https://deepxde.readthedocs.io/en/latest/examples/index.html) |
-| QPINNs Research | "Quantum Physics-Informed Neural Networks" by Cuesta et al. |
+### ✅ Topics
+- PQCs for function approximation or eigenvalue estimation
+- Classical PINNs + Quantum subcircuits (e.g., solving quantum PDEs)
+- Training with hybrid optimizers (e.g., ADAM + SPSA)
+- Circuit Differentiation (parameter-shift rule)
+
+### 📚 Tools
+- [Qiskit + PyTorch integration](https://qiskit.org/ecosystem/machine-learning/)
+- [PennyLane + PyTorch](https://pennylane.ai/qml/demos/tutorial_pytorch_interface.html)
+
+### 📚 Papers
+- Marrero et al., 2020 — [Quantum Neural Network Architectures](https://arxiv.org/abs/2010.15968)
+- Quantum PINNs – [Quantum-assisted learning of quantum PDEs](https://arxiv.org/abs/2105.01417)
+- Ghosh et al. – [Hybrid Quantum-Classical PINNs](https://arxiv.org/abs/2109.06259)
+
+---
+
+## 🧪 Phase 5: Applications & Projects
+
+### 🧠 Project Ideas
+- Solve the time-dependent Schrödinger equation with hybrid quantum NN
+- Use VQE to find the ground state energy in PINNs setup
+- Infer unknown potentials or Hamiltonians from quantum data
+
+### 📚 Tools
+- Jupyter Notebook + Qiskit/PennyLane
+- PyTorch with autograd for PINNs loss
+- Hugging Face for model hosting
+
+---
+
+## 🚀 Phase 6: Publication & Contribution
+
+### ✅ Goals
+- Publish code on GitHub (with tutorials)
+- Contribute to DeepXDE, PennyLane, or Qiskit open-source
+- Write and host a Jupyter Book with HQPINNs demos
+- Upload pretrained HQPINN models on Hugging Face 🤗
+
+---
