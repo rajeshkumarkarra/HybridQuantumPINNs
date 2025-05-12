@@ -16,7 +16,7 @@ project:
     - PDEs
     - Partial Differential Equations
   authors: [Rajesh Karra]
-  logo: pinnslogo.png
+  #logo: pinnslogo.png
   github: https://github.com/rajeshkumarkarra/HybridQuantumPINNs
 
  
