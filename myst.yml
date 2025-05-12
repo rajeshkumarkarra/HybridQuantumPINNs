@@ -3,6 +3,7 @@ version: 1
 project:
   id: b2cba7e1-bee3-4ad8-965e-026119dd2e53
   title: Hybrid Quantum PINNs
+  logo: 'pinnslogo.png'
   description: Learning Hybrid Quantum PINNs for solving PDEs
   keywords: 
     - PINNs
