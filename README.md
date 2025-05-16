@@ -1,5 +1,5 @@
 
-![](https://drive.google.com/file/d/1-S8Hh5HAfeMLJLYdJ-Xv-k5edVIBdzhc/view?usp=drivesdk)
+[](https://drive.google.com/file/d/1-S8Hh5HAfeMLJLYdJ-Xv-k5edVIBdzhc/view?usp=drivesdk)
 # What is Hybrid Quantum Physics-Informed Neural Networks (HQPINNs)?
 
 Hybrid Quantum Physics-Informed Neural Networks (HQPINNs) are a novel fusion of **quantum computing**, **deep learning**, and **physics-based modeling** that aim to solve partial differential equations (PDEs) by leveraging both classical neural networks and quantum circuits. These models are particularly useful for problems governed by known physical laws, where data may be scarce but the governing equations are well understood.
