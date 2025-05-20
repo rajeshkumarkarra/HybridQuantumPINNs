@@ -21,14 +21,22 @@ See the section on [`code`](#code).
 > ## Resources
 * Check out {Link: Pennylane Cookbook https://pennylane.ai/codebook/learning-paths}!<br>
 * Check out {Link: Discover new ideas faster.
-https://pennylane.ai/}![1]
+https://pennylane.ai/}![1][2][3]
 * Check out {Link: Papers With Code https://portal.paperswithcode.com/}!<br>
 * Check out {Link: Math for Machine Learning https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/tree/main/}!<br>
 * Check out {Link: Hugging Face https://huggingface.co/}!<br>
+* Check out {Link: How to contribute Open Source project https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project
+}!<br>
+* Check out {Link: NotebookLM https://notebooklm.google.com/}!<br>
+* Check out {Link: IBM Quantum Learning https://learning.quantum.ibm.com/}!<br>
+
+
 
 
 
 
 [1](https://pennylane.ai/qml/demos_submission)
+[2](https://pennylane.ai/)
+[3](https://pennylane.ai/codebook/learning-paths)
 
 
