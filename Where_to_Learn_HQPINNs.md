@@ -96,6 +96,35 @@ This guide is designed to help you master the intersection of quantum computing,
 - Publish papers on [arXiv](https://arxiv.org)
 - Create a [Jupyter Book](https://jupyterbook.org)
 - Share models via [Hugging Face](https://huggingface.co)
+---
+### Here are some open source projects and resources related to Hybrid Quantum Physics-Informed Neural Networks (PINNs):
+
+### HybridQuantumPINNs
+
+* Repository: [rajeshkumarkarra/HybridQuantumPINNs](https://github.com/rajeshkumarkarra/HybridQuantumPINNs)
+* Description: A repository dedicated specifically to Hybrid Quantum PINNs.
+* Language: Jupyter Notebook
+* Homepage: [Project Site]{https://rajeshkumarkarra.github.io/HybridQuantumPINNs/)
+
+### Awesome Quantum Software
+* Curated list of open source quantum and hybrid quantum-classical projects.
+* [Awesome Quantum Software on GitHub](https://github.com/qosf/awesome-quantum-software)
+
+### List of Open Quantum Projects by QOSF
+
+* A broad list including quantum and hybrid quantum-classical software projects.
+* [QOSF Project List](https://qosf.org/project_list/)
+
+### QUASI
+
+* Project and blog describing Quantum PINNs (QPINNs) and hybrid approaches.
+* [QUASI Project](https://adytiaa.github.io/quasi.ai/)
+
+### Top Quantum Computing Projects (LibHunt)
+
+* List includes hybrid quantum-classical machine learning frameworks such as PennyLane.
+* [Quantum Computing Open Source Projects](https://www.libhunt.com/topic/quantum-computing)
 
 ---
+
 > C. Albornoz, G. Alonso, M. Andrenkov, P. Angara, A. Asadi, A. Ballon, S. Bapat, L. Botelho, I. De Vlugt, O. Di Matteo, P. Downing, P. Finlay, A. Fumagalli, A. Gardhouse, J. Geoffrion, N. Girard, A. Hayes, J. Izaac, R. Janik, T. Kalajdzievski, A. Kanwar Singh, A. Khomchenko, N. Killoran, I. Kurečić, O. Landon-Cardinal, A. Martin, D. Nino, A. Otto, C. Pere, J. Pickering, K. Renaud, J. Soni, D. Wakeham, L. Young. PennyLane Codebook. 2024. [https://pennylane.ai/codebook](https://pennylane.ai/codebook)
