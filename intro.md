@@ -103,3 +103,5 @@ title = {{PennyLane Codebook}},
 note={\url{https://pennylane.ai/codebook}},
 year = {2024}
 }
+
+> C. Albornoz, G. Alonso, M. Andrenkov, P. Angara, A. Asadi, A. Ballon, S. Bapat, L. Botelho, I. De Vlugt, O. Di Matteo, P. Downing, P. Finlay, A. Fumagalli, A. Gardhouse, J. Geoffrion, N. Girard, A. Hayes, J. Izaac, R. Janik, T. Kalajdzievski, A. Kanwar Singh, A. Khomchenko, N. Killoran, I. Kurečić, O. Landon-Cardinal, A. Martin, D. Nino, A. Otto, C. Pere, J. Pickering, K. Renaud, J. Soni, D. Wakeham, L. Young. PennyLane Codebook. 2024. [https://pennylane.ai/codebook](https://pennylane.ai/codebook)
