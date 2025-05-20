@@ -15,12 +15,19 @@ I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"-->
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+-->
 
 > ## Resources
-Check out {Link: Pennylane Cookbook https://pennylane.ai/codebook/learning-paths}!<br>
-Check out {Link: Discover new ideas faster.
+* Check out {Link: Pennylane Cookbook https://pennylane.ai/codebook/learning-paths}!<br>
+* Check out {Link: Discover new ideas faster.
 https://pennylane.ai/}![1]
+* Check out {Link: Papers With Code https://portal.paperswithcode.com/}!<br>
+* Check out {Link: Math for Machine Learning https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/tree/main/}!<br>
+* Check out {Link: Hugging Face https://huggingface.co/}!<br>
+
+
+
 
 [1](https://pennylane.ai/qml/demos_submission)
 
