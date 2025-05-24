@@ -29,6 +29,8 @@ https://pennylane.ai/}![1][2][3]
 }!<br>
 * Check out {Link: NotebookLM https://notebooklm.google.com/}!<br>
 * Check out {Link: IBM Quantum Learning https://learning.quantum.ibm.com/}!<br>
+* Check out {Link: dask-python libray https://www.dask.org/}!<br>
+
 
 
 
